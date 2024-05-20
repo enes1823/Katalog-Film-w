@@ -1,0 +1,111 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+
+}
+
+.create {
+
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: red;
+    padding-bottom: 15px;
+}
+
+.design {
+
+    margin-top: 15px;
+    width: 250px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.design1 {
+
+    margin-top: 25px;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 15px;
+
+}
+
+.design1:hover {
+
+    background: rgb(212, 212, 212);
+    transition: 0.4s;
+
+}
+
+.videos {
+
+    background-size: cover;
+    background-color: lime;
+    color: black;
+    display: flex;
+
+}
+
+.buttonsVideos {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.movie_added {
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    padding: 15px;
+    border: 1px solid black;
+    text-align: left;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.design2 {
+    margin-top: 15px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    height: 25px;
+}
+
+.design2:hover {
+
+    background: rgb(212, 212, 212);
+    transition: 0.4s;
+
+}
+
+#saveChanges {
+
+    visibility: hidden;
+
+}
+
+#deleteChanges {
+
+    visibility: hidden;
+
+}
+
+#delete {
+
+    display: none;
+
+}

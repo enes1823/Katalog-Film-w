@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Katalog Filmowy</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="page">
+            <div class="create">
+                <input type="text" id="title" class="design" placeholder="Tytuł Filmu">
+                <input type="text" id="category" class="design" placeholder="Kategoria Filmu">
+                <input type="text" id="author" class="design" placeholder="Reżyser">
+                <input type="text" id="year" class="design" placeholder="Data Premiery">
+                <div class="buttonsVideos">
+                    <button id="submit" class="design1" onclick="addMovie(), cleanForm(),render()">Zapisz Film</button>
+                    <button id="delete" class="design1" onclick="deleteMovie()">Usuń Film</button>
+                </div>
+            </div>
+            <div class="videos" id="videos">
+            </div>
+        </div>
+    </body>
+</html>
