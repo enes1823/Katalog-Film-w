@@ -9,12 +9,12 @@
 
 .create {
 
+    background-color: lightgray;
     padding-top: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: red;
     padding-bottom: 15px;
 }
 
@@ -48,8 +48,6 @@
 
 .videos {
 
-    background-size: cover;
-    background-color: lime;
     color: black;
     display: flex;
 
